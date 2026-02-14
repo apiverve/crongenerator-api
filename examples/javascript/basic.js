@@ -13,12 +13,7 @@ const API_URL = 'https://api.apiverve.com/v1/crongenerator';
  */
 async function callCronExpressionGeneratorAPI() {
   try {
-    // Query parameters
-    const params &#x3D; new URLSearchParams({
-            schedule: &#x27;every weekday at 9am&#x27;
-        });
-
-    const response = await fetch(`${API_URL}?${params}`, {
+    const response = await fetch(API_URL, {
       method: 'GET',
       headers: {
         'x-api-key': API_KEY
