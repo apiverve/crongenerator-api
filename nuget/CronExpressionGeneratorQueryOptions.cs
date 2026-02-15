@@ -12,7 +12,6 @@ namespace APIVerve.API.CronExpressionGenerator
     {
         /// <summary>
         /// Natural language description of the schedule (max 200 characters)
-        /// Example: every weekday at 9am
         /// </summary>
         [JsonProperty("schedule")]
         public string Schedule { get; set; }
