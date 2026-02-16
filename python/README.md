@@ -218,8 +218,9 @@ from apiverve_cronexpressiongenerator.apiClient import CrongeneratorAPIClient
 
 api = CrongeneratorAPIClient("[YOUR_API_KEY]")
 
+query = { "schedule": "every weekday at 9am" }
+
 try:
-    query = { "schedule": "every weekday at 9am" }
     result = api.execute(query)
     print(result)
 finally:
