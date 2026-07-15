@@ -4,18 +4,30 @@ declare module '@apiverve/crongenerator' {
     secure?: boolean;
   }
 
+  /**
+   * Describes fields the current plan does not unlock. Locked fields arrive as null
+   * in `data`; `locked_fields` names them, using dot paths for nested fields.
+   * Absent when the plan unlocks everything.
+   */
+  export interface PremiumInfo {
+    message: string;
+    upgrade_url: string;
+    locked_fields: string[];
+  }
+
   export interface crongeneratorResponse {
     status: string;
     error: string | null;
     data: CronExpressionGeneratorData;
     code?: number;
+    premium?: PremiumInfo;
   }
 
 
   interface CronExpressionGeneratorData {
-      schedule:    string;
-      expression:  string;
-      description: string;
+      schedule:    null | string;
+      expression:  null | string;
+      description: null | string;
   }
 
   export default class crongeneratorWrapper {
