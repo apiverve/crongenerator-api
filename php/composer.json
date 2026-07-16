@@ -1,0 +1,49 @@
+{
+    "name": "apiverve/crongenerator",
+    "description": "Cron Expression Generator is an AI-powered tool for converting natural language schedule descriptions into cron expressions. It returns valid cron syntax along with human-readable descriptions.",
+    "version": "1.2.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "APIVerve",
+            "email": "hello@apiverve.com",
+            "homepage": "https://apiverve.com"
+        }
+    ],
+    "keywords": [
+        "api",
+        "apiverve",
+        "crongenerator",
+        "cron",
+        "cron generator",
+        "cron expression",
+        "schedule generator",
+        "task scheduler"
+    ],
+    "homepage": "https://apiverve.com/marketplace/crongenerator?utm_source=php&utm_medium=homepage",
+    "support": {
+        "email": "hello@apiverve.com",
+        "docs": "https://docs.apiverve.com/ref/crongenerator",
+        "source": "https://github.com/apiverve/crongenerator-API/tree/main/php"
+    },
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "APIVerve\\Crongenerator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "APIVerve\\Crongenerator\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
