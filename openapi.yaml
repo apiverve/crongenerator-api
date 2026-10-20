@@ -2,9 +2,10 @@ openapi: 3.0.4
 info:
   title: Cron Expression Generator
   description: >-
-    Cron Expression Generator is an AI-powered tool for converting natural
-    language schedule descriptions into cron expressions. It returns valid cron
-    syntax along with human-readable descriptions.
+    Cron Expression Generator converts natural language schedule text into
+    standard five-field cron expressions. Submit phrases up to 200 characters to
+    receive the matching cron syntax, with paid plans adding written
+    explanations.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -19,7 +20,7 @@ servers:
 paths:
   /v1/crongenerator:
     get:
-      summary: Generate Cron Expression
+      summary: Cron Expression Generator
       description: Generate cron expressions from natural language schedule descriptions
       operationId: crongenerator
       parameters:
