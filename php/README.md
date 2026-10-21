@@ -1,6 +1,6 @@
 # Cron Expression Generator API - PHP Package
 
-Cron Expression Generator is an AI-powered tool for converting natural language schedule descriptions into cron expressions. It returns valid cron syntax along with human-readable descriptions.
+Cron Expression Generator converts natural language schedule text into standard five-field cron expressions. Submit phrases up to 200 characters to receive the matching cron syntax, with paid plans adding written explanations.
 
 ## Installation
 
@@ -83,11 +83,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/crongenerator?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/crongenerator?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://apiverve.com/marketplace/crongenerator?utm_source=php&utm_medium=readme](https://apiverve.com/marketplace/crongenerator?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/crongenerator?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/crongenerator?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License
