@@ -1,7 +1,7 @@
 {
     "name": "apiverve/crongenerator",
-    "description": "Cron Expression Generator is an AI-powered tool for converting natural language schedule descriptions into cron expressions. It returns valid cron syntax along with human-readable descriptions.",
-    "version": "1.2.0",
+    "description": "Cron Expression Generator converts natural language schedule text into standard five-field cron expressions. Submit phrases up to 200 characters to receive the matching cron syntax, with paid plans adding written explanations.",
+    "version": "1.2.2",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,13 +15,13 @@
         "api",
         "apiverve",
         "crongenerator",
-        "cron",
-        "cron generator",
-        "cron expression",
-        "schedule generator",
-        "task scheduler"
+        "cron expression generator",
+        "cron job expression generator",
+        "crontab syntax generator",
+        "cron generator api",
+        "cron generator"
     ],
-    "homepage": "https://apiverve.com/marketplace/crongenerator?utm_source=php&utm_medium=homepage",
+    "homepage": "https://apiverve.com/marketplace/crongenerator?utm_source=php&utm_medium=referral&utm_content=homepage",
     "support": {
         "email": "hello@apiverve.com",
         "docs": "https://docs.apiverve.com/ref/crongenerator",
