@@ -1,11 +1,11 @@
 # Cron Expression Generator API - Dart/Flutter Client
 
-Cron Expression Generator is an AI-powered tool for converting natural language schedule descriptions into cron expressions. It returns valid cron syntax along with human-readable descriptions.
+Cron Expression Generator converts natural language schedule text into standard five-field cron expressions. Submit phrases up to 200 characters to receive the matching cron syntax, with paid plans adding written explanations.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_crongenerator.svg)](https://pub.dev/packages/apiverve_crongenerator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the Dart/Flutter client for the [Cron Expression Generator API](https://apiverve.com/marketplace/crongenerator?utm_source=dart&utm_medium=readme).
+This is the Dart/Flutter client for the [Cron Expression Generator API](https://apiverve.com/marketplace/crongenerator?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## Installation
 
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_crongenerator: ^1.1.14
+  apiverve_crongenerator: ^1.2.3
 ```
 
 Then run:
@@ -61,12 +61,12 @@ void main() async {
 
 ## API Reference
 
-- **API Home:** [Cron Expression Generator API](https://apiverve.com/marketplace/crongenerator?utm_source=dart&utm_medium=readme)
-- **Documentation:** [docs.apiverve.com/ref/crongenerator](https://docs.apiverve.com/ref/crongenerator?utm_source=dart&utm_medium=readme)
+- **API Home:** [Cron Expression Generator API](https://apiverve.com/marketplace/crongenerator?utm_source=dart&utm_medium=referral&utm_content=readme)
+- **Documentation:** [docs.apiverve.com/ref/crongenerator](https://docs.apiverve.com/ref/crongenerator?utm_source=dart&utm_medium=referral&utm_content=readme)
 
 ## Authentication
 
-All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=readme).
+All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## License
 
@@ -74,4 +74,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=readme)
+Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme)

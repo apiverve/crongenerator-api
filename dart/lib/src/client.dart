@@ -46,7 +46,7 @@ final _formatPatterns = {
 
 /// Cron Expression Generator API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/crongenerator?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/crongenerator?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [schedule] (required) - Natural language description of the schedule (max 200 characters) [maxLength: 200]
