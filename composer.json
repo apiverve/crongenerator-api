@@ -1,7 +1,7 @@
 {
     "name": "apiverve/crongenerator",
     "description": "Cron Expression Generator converts natural language schedule text into standard five-field cron expressions. Submit phrases up to 200 characters to receive the matching cron syntax, with paid plans adding written explanations.",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "type": "library",
     "license": "MIT",
     "authors": [
