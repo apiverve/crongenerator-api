@@ -1,6 +1,6 @@
 name: apiverve_crongenerator
 description: "Cron Expression Generator converts natural language schedule text into standard five-field cron expressions. Submit phrases up to 200 characters to receive the matching cron syntax, with paid plans adding written explanations."
-version: 1.2.4
+version: 1.2.5
 homepage: https://apiverve.com/marketplace/crongenerator?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/crongenerator-api/tree/main/dart
 
