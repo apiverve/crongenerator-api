@@ -4,6 +4,6 @@ require_relative "apiverve_crongenerator/client"
 
 module APIVerve
   module Crongenerator
-    VERSION = "1.2.5"
+    VERSION = "1.2.6"
   end
 end
